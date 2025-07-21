@@ -24,12 +24,8 @@ img {
 }
 
 .welcome-text {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
     text-align: center;
-    width: 100%;
+    padding: 20px;
 }
 
 .welcome-text p {
