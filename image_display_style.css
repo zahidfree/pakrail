@@ -16,6 +16,7 @@ body {
     overflow: hidden;
     box-shadow: 0 0 20px rgba(144, 238, 144, 0.5), 0 0 40px rgba(144, 238, 144, 0.3), 0 0 60px rgba(144, 238, 144, 0.2);
     animation: glow 2s infinite ease-in-out, pulse 3s infinite ease-in-out;
+    margin-top: 20px;
 }
 
 img {
