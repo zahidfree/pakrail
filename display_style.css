@@ -2,7 +2,7 @@ html, body {
     height: 100%; /* Ensure body can fill the viewport height */
 }
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 20px;
     color: #f0f0f0; /* Light text for dark themes */
@@ -216,6 +216,10 @@ tbody tr:last-child td {
 .arrivals-theme .edit-btn:hover { background-color: #99ccdd; transform: translateY(-1px); }
 .arrivals-theme .remove-btn { background-color: #ff7777; color: #330000; } 
 .arrivals-theme .remove-btn:hover { background-color: #ff5555; transform: translateY(-1px); }
+
+.status-highlight td {
+    background-color: red !important;
+}
 
 /* Footer Styling */
 .footer {
